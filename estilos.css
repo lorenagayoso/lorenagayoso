@@ -220,7 +220,6 @@ width: 35%;
 padding-left: 2%;
 }
 div.contenedor_footer div.box_redes div.box_mail {
-  background-color: blue;
   display: flex;
   margin-top: 5%;
 }
@@ -229,7 +228,6 @@ div.contenedor_footer div.box_redes div.box_mail img {
   height: auto;
 }
 div.contenedor_footer div.box_redes div.box_mensaje {
-  background-color: blue;
   display: flex;
   margin-top: 5%;
 }
@@ -238,7 +236,6 @@ div.contenedor_footer div.box_redes div.box_mensaje img {
   height: auto;
 }
 div.contenedor_footer div.box_redes div.box_cita {
-  background-color: blue;
   display: flex;
   margin-top: 5%;
 }
