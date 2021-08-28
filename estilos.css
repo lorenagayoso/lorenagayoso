@@ -460,7 +460,6 @@ button.btn_mail_footer:hover {
   justify-content: space-between;
   margin: auto;
   padding-top: 8%;
-  background-color: yellow;
 }
 #home_section_3 div.box_contenedores div[class^=box_contenedor_] {
   width: 25%;
@@ -987,7 +986,6 @@ div.bio_box2 div.bio_box2_2 {
   height: 15%;
 }
 #evaluaciones_seccion_2 #evaluaciones_seccion_2_1 div.evaluaciones_seccion_2_box_1 div.evaluaciones_seccion_2_box_1_wrapper div.evaluaciones_seccion_2_box_1_texto div.evaluaciones_seccion_2_box_1_texto_1 {
-  background-color: yellow;
   display: flex;
   margin-top: 4%;
   align-items: center;
@@ -997,7 +995,6 @@ div.bio_box2 div.bio_box2_2 {
   margin-left: 4%;
 }
 #evaluaciones_seccion_2 #evaluaciones_seccion_2_1 div.evaluaciones_seccion_2_box_1 div.evaluaciones_seccion_2_box_1_wrapper div.evaluaciones_seccion_2_box_1_texto div.evaluaciones_seccion_2_box_1_texto_2 {
-  background-color: yellow;
   display: flex;
   margin-top: 4%;
   align-items: center;
@@ -1007,7 +1004,6 @@ div.bio_box2 div.bio_box2_2 {
   margin-left: 4%;
 }
 #evaluaciones_seccion_2 #evaluaciones_seccion_2_1 div.evaluaciones_seccion_2_box_1 div.evaluaciones_seccion_2_box_1_wrapper div.evaluaciones_seccion_2_box_1_texto div.evaluaciones_seccion_2_box_1_texto_3 {
-  background-color: yellow;
   display: flex;
   margin-top: 4%;
   align-items: center;
@@ -1092,7 +1088,6 @@ div.bio_box2 div.bio_box2_2 {
   height: 15%;
 }
 .evaluaciones_seccion_2_box_2 div.evaluaciones_seccion_2_box_2_wrapper .evaluaciones_seccion_2_box_2_texto div.evaluaciones_seccion_2_box_2_texto_1 {
-  background-color: yellow;
   display: flex;
   margin-top: 4%;
   align-items: center;
@@ -1102,7 +1097,6 @@ div.bio_box2 div.bio_box2_2 {
   margin-left: 4%;
 }
 .evaluaciones_seccion_2_box_2 div.evaluaciones_seccion_2_box_2_wrapper .evaluaciones_seccion_2_box_2_texto div.evaluaciones_seccion_2_box_2_texto_2 {
-  background-color: yellow;
   display: flex;
   margin-top: 4%;
   align-items: center;
@@ -1112,7 +1106,6 @@ div.bio_box2 div.bio_box2_2 {
   margin-left: 4%;
 }
 .evaluaciones_seccion_2_box_2 div.evaluaciones_seccion_2_box_2_wrapper .evaluaciones_seccion_2_box_2_texto div.evaluaciones_seccion_2_box_2_texto_3 {
-  background-color: yellow;
   display: flex;
   margin-top: 4%;
   align-items: center;
@@ -1179,7 +1172,6 @@ div.bio_box2 div.bio_box2_2 {
   height: 15%;
 }
 .evaluaciones_seccion_2_box_3 .evaluaciones_seccion_2_box_3_wrapper .evaluaciones_seccion_2_box_3_texto div.evaluaciones_seccion_2_box_3_texto_1 {
-  background-color: yellow;
   display: flex;
   margin-top: 4%;
   align-items: center;
@@ -1189,7 +1181,6 @@ div.bio_box2 div.bio_box2_2 {
   margin-left: 4%;
 }
 .evaluaciones_seccion_2_box_3 .evaluaciones_seccion_2_box_3_wrapper .evaluaciones_seccion_2_box_3_texto div.evaluaciones_seccion_2_box_3_texto_2 {
-  background-color: yellow;
   display: flex;
   margin-top: 4%;
   align-items: center;
@@ -1294,21 +1285,18 @@ div.bio_box2 div.bio_box2_2 {
   display: flex;
   width: 100%;
   height: auto;
-  background-color: red;
   margin-left: 0%;
 }
 #servicios_seccion_2_1 .servicios_seccion_2_box_1 div.servicios_seccion_2_box_2_wrapper {
   display: flex;
   width: 100%;
   height: auto;
-  background-color: red;
   margin-left: 0%;
 }
 #servicios_seccion_2_1 .servicios_seccion_2_box_1 div.servicios_seccion_2_box_3_wrapper {
   display: flex;
   width: 100%;
   height: auto;
-  background-color: red;
   margin-left: 0%;
 }
 #servicios_seccion_2_1 .servicios_seccion_2_box_1 img {
@@ -1344,21 +1332,18 @@ div.bio_box2 div.bio_box2_2 {
   display: block;
   width: 45%;
   height: auto;
-  background-color: green;
   margin-left: 10%;
 }
 #servicios_seccion_2_1 .servicios_seccion_2_box_1 div.servicios_seccion_2_box_2_texto {
   display: block;
   width: 45%;
   height: auto;
-  background-color: green;
   margin-left: 10%;
 }
 #servicios_seccion_2_1 .servicios_seccion_2_box_1 div.servicios_seccion_2_box_3_texto {
   display: block;
   width: 45%;
   height: auto;
-  background-color: green;
   margin-left: 10%;
 }
 #servicios_seccion_2_1 .servicios_seccion_2_box_1 img {
@@ -1453,21 +1438,18 @@ div.bio_box2 div.bio_box2_2 {
   display: flex;
   width: 100%;
   height: auto;
-  background-color: red;
   margin-left: 0%;
 }
 #servicios_seccion_2_1 .servicios_seccion_2_box_2 div.servicios_seccion_2_box_2_wrapper {
   display: flex;
   width: 100%;
   height: auto;
-  background-color: red;
   margin-left: 0%;
 }
 #servicios_seccion_2_1 .servicios_seccion_2_box_2 div.servicios_seccion_2_box_3_wrapper {
   display: flex;
   width: 100%;
   height: auto;
-  background-color: red;
   margin-left: 0%;
 }
 #servicios_seccion_2_1 .servicios_seccion_2_box_2 img {
@@ -1503,21 +1485,18 @@ div.bio_box2 div.bio_box2_2 {
   display: block;
   width: 45%;
   height: auto;
-  background-color: green;
   margin-left: 10%;
 }
 #servicios_seccion_2_1 .servicios_seccion_2_box_2 div.servicios_seccion_2_box_2_texto {
   display: block;
   width: 45%;
   height: auto;
-  background-color: green;
   margin-left: 10%;
 }
 #servicios_seccion_2_1 .servicios_seccion_2_box_2 div.servicios_seccion_2_box_3_texto {
   display: block;
   width: 45%;
   height: auto;
-  background-color: green;
   margin-left: 10%;
 }
 #servicios_seccion_2_1 .servicios_seccion_2_box_2 img {
@@ -1612,21 +1591,18 @@ div.bio_box2 div.bio_box2_2 {
   display: flex;
   width: 100%;
   height: auto;
-  background-color: red;
   margin-left: 0%;
 }
 #servicios_seccion_2_1 .servicios_seccion_2_box_3 div.servicios_seccion_2_box_2_wrapper {
   display: flex;
   width: 100%;
   height: auto;
-  background-color: red;
   margin-left: 0%;
 }
 #servicios_seccion_2_1 .servicios_seccion_2_box_3 div.servicios_seccion_2_box_3_wrapper {
   display: flex;
   width: 100%;
   height: auto;
-  background-color: red;
   margin-left: 0%;
 }
 #servicios_seccion_2_1 .servicios_seccion_2_box_3 img {
@@ -1662,21 +1638,18 @@ div.bio_box2 div.bio_box2_2 {
   display: block;
   width: 45%;
   height: auto;
-  background-color: green;
   margin-left: 10%;
 }
 #servicios_seccion_2_1 .servicios_seccion_2_box_3 div.servicios_seccion_2_box_2_texto {
   display: block;
   width: 45%;
   height: auto;
-  background-color: green;
   margin-left: 10%;
 }
 #servicios_seccion_2_1 .servicios_seccion_2_box_3 div.servicios_seccion_2_box_3_texto {
   display: block;
   width: 45%;
   height: auto;
-  background-color: green;
   margin-left: 10%;
 }
 #servicios_seccion_2_1 .servicios_seccion_2_box_3 img {
