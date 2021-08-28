@@ -1310,6 +1310,22 @@ div.bio_box2 div.bio_box2_2 {
   background-color: white;
   margin-left: 0%;
 }
+
+#servicios_seccion_2_1 .servicios_seccion_2_box_1 div.servicios_seccion_2_box_1_imagen img{
+  width: 100%;
+  height: auto;
+}
+
+#servicios_seccion_2_1 .servicios_seccion_2_box_2 div.servicios_seccion_2_box_2_imagen img{
+  width: 100%;
+  height: auto;
+}
+
+#servicios_seccion_2_1 .servicios_seccion_2_box_3 div.servicios_seccion_2_box_3_imagen img{
+  width: 100%;
+  height: auto;
+}
+
 #servicios_seccion_2_1 .servicios_seccion_2_box_1 div.servicios_seccion_2_box_2_imagen {
   display: block;
   width: 45%;
