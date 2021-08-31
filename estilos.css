@@ -2011,6 +2011,10 @@ margin: auto;
 #contacto_section_1 .contacto_section_1 .box_contacto .botones_banner_contacto .btn_mail, #contacto_section_1 .contacto_section_1 .box_contacto .botones_banner_contacto .btn_contact, #contacto_section_1 .contacto_section_1 .box_contacto .botones_banner_contacto .btn_calendly {
 margin-top: 10%;
 }
+
+#contacto_section_1 .contacto_section_1 .box_contacto .botones_banner_contacto .btn_mail{
+width: 80%;
+}
 }
 
 /*# sourceMappingURL=estilos.css.map */
