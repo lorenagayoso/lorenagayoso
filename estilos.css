@@ -438,84 +438,130 @@ button.btn_mail_footer:hover {
     margin: auto;
   }
 }
+
+
 /* HOME SECCION 3: POR QUE CONTRATARNOS */
-#home_section_3 {
+
+#home_section_3{
   padding-bottom: 10%;
   height: auto;
   background-color: white;
 }
-#home_section_3 .box_beneficios {
+
+.box_beneficios , .box_servicios{
   margin: auto;
   width: 50%;
   height: auto;
   text-align: center;
   padding-top: 8%;
 }
-#home_section_3 .box_beneficios p {
-  margin-top: 8%;
+
+.box_beneficios p{
+margin-top: 8%;
 }
-#home_section_3 div.box_contenedores {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: auto;
-  padding-top: 8%;
+
+#home_section_3 div.box_contenedores{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin: auto;
+padding-top: 8%;
+
+
 }
-#home_section_3 div.box_contenedores div[class^=box_contenedor_] {
+#home_section_3 div.box_contenedor_1{
   width: 25%;
-  height: 50%;
-  text-align: center;
+  height:50%;
+  text-align:center;
 }
-#home_section_3 div.box_contenedores div[class^=box_contenedor_] img {
+
+#home_section_3 div.box_contenedor_1 img{
   width: auto;
-  height: 12vh;
+  height:12vh;
 }
-#home_section_3 div.box_contenedores div[class^=box_contenedor_] p {
-  margin-top: 6%;
+
+#home_section_3 div.box_contenedor_1 p{
+margin-top: 6%;
 }
-#home_section_3 div.box_contenedores .box_contenedor_2 {
-  margin-left: 8%;
+
+#home_section_3 div.box_contenedor_2{
+  width: 25%;
+  height:50%;
+  margin-left:8%;
+  text-align:center;
 }
-#home_section_3 div.box_contenedores .box_contenedor_3 {
-  margin-left: 8%;
+
+#home_section_3 div.box_contenedor_2 img{
+  width: auto;
+  height:12vh;
 }
+
+#home_section_3 div.box_contenedor_2 p{
+margin-top: 6%;
+}
+
+#home_section_3 div.box_contenedor_3{
+  width: 25%;
+  height:50%;
+  margin-left:8%;
+  text-align:center;
+}
+
+#home_section_3 div.box_contenedor_3 img{
+  width: auto;
+  height:12vh;
+}
+
+#home_section_3 div.box_contenedor_3 p{
+margin-top: 6%;
+}
+
+
 
 /* HOME SECTION 3 _ RESPONSIVE_TABLET*/
-@media only screen and (max-width: 768px) {
-  #home_section_3 div.box_contenedores {
-    margin-top: 10%;
-    display: block;
-    flex-direction: column-reverse;
-    flex-wrap: wrap;
-  }
 
-  #home_section_3 div.box_contenedor_1 {
-    width: 50%;
-    text-align: center;
-    margin: auto;
-  }
+@media only screen and (max-width: 768px){  
 
-  #home_section_3 div.box_contenedor_2 {
-    width: 50%;
-    text-align: center;
-    margin: auto;
-    margin-top: 10%;
-  }
-
-  #home_section_3 div.box_contenedor_3 {
-    width: 50%;
-    text-align: center;
-    margin: auto;
-    margin-top: 10%;
-  }
-
-  #home_section_3 div.box_contenedor_4 {
-    width: 50%;
-    text-align: center;
-    margin: auto;
-    margin-top: 10%;
-  }
+#home_section_3 div.box_contenedores{
+  margin-top: 10%;
+  display: block;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
 }
+
+#home_section_3 div.box_contenedor_1{
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+#home_section_3 div.box_contenedor_2{
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+}
+
+#home_section_3 div.box_contenedor_3{
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+
+}
+
+#home_section_3 div.box_contenedor_4{
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+
+}
+
+}
+
+
+
 /* HOME SECTION 4 */
 #home_section_4 {
   width: 100%;
@@ -608,56 +654,79 @@ margin: auto}
   margin: auto;
 }
 
+
 /* HOME SECTION 4 _ RESPONSIVE_TABLET*/
-@media only screen and (max-width: 600px) {
-  section[id^=home] h3 {
-    font-size: 130%;
-  }
 
-  #home_section_4 button {
-    width: 100%;
-    border-radius: 25%/200%;
-  }
 
-  #home_section_4 button a {
-    font-size: 12px;
-  }
+@media only screen and (max-width: 600px){
+section[id^="home"] h3{
+font-size: 130%;}
 
-  #home_section_4 div.evaluaciones_btn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #home_section_4 div.servicios_btn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #home_section_4 div.capacitaciones_btn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #home_section_4 div.adicionales_btn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+#home_section_4 button{
+  width: 100%;
+  border-radius: 25%/200%;
 }
-@media only screen and (max-width: 400px) {
-  section[id^=home] h3 {
-    font-size: 100%;
-  }
+
+#home_section_4 button a{
+font-size: 12px;
 }
-@media only screen and (max-width: 399px) {
-  section[id^=home] h3 {
-    font-size: 80%;
-  }
+
+
+#home_section_4 div.evaluaciones_btn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+
+#home_section_4 div.servicios_btn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ 
+
+#home_section_4 div.capacitaciones_btn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+#home_section_4 div.adicionales_btn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#home_section_4 div[class*=padre] div[class*=hijo] div[class$=btn] .btn_more_info {
+width: 100%;
+}
+#home_section_4 div[class*=padre] div[class*=hijo] div[class$=btn] .btn_mensaje{
+width: 100%;
+}
+
+}
+
+@media only screen and (max-width: 400px){
+section[id^="home"] h3{
+font-size: 100%;}
+}
+
+@media only screen and (max-width: 399px){
+section[id^="home"] h3{
+font-size: 80%;}
+}
+
+
+
+
+
+
+
+
 /*PAGINA NOSOTROS*/
+
 /*PAGINA NOSOTROS_SECCION 1_DESKTOP */
 #nosotros_seccion_1 {
   display: flex;
@@ -689,13 +758,13 @@ margin: auto}
 /*CONTENIDO BOX*/
 /*PAGINA NOSOTROS_SECCION 1_TABLET*/
 @media only screen and (max-width: 768px) {
-  section#nosotros_seccion_1 {
+  #nosotros_seccion_1 {
     display: block;
     flex-wrap: wrap;
     height: auto;
   }
 
-  section#nosotros_seccion_1 img {
+  #nosotros_seccion_1 img {
     margin-top: 3%;
     width: 70%;
     padding-bottom: 5%;
@@ -704,12 +773,13 @@ margin: auto}
     margin-right: 11%;
   }
 
-  div.nosotros_box {
+ #nosotros_seccion_1 div.nosotros_box {
     margin-left: 10%;
     height: auto;
     width: 80%;
   }
 }
+
 /*PAGINA NOSOTROS ---- SECCION 2 */
 /*BOX DOCTORA */
 #nosotros_seccion_2 {
@@ -753,41 +823,41 @@ margin: auto}
 
 /*PAGINA NOSOTROS_SECCION 2_DRA_TABLET */
 @media only screen and (min-width: 480px) and (max-width: 768px) {
-  section#nosotros_seccion_2 {
+  #nosotros_seccion_2 {
     height: auto;
     margin-bottom: 20%;
     display: block;
     flex-wrap: wrap;
   }
 
-  div#nosotros_seccion_2_1 {
+  #nosotros_seccion_2 #nosotros_seccion_2_1{
     height: auto;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
   }
 
-  div#nosotros_seccion_2_1 h2 {
+  #nosotros_seccion_2 #nosotros_seccion_2_1 h2{
     margin-top: 10%;
   }
 
-  div.bio_box1 {
+  #nosotros_seccion_2 #nosotros_seccion_2_1 div.bio_box1{
     width: 100%;
     display: block;
     margin: auto;
   }
 
-  div.bio_box1_1 {
+  #nosotros_seccion_2 #nosotros_seccion_2_1 div.bio_box1 div.bio_box1_1{
     width: 100%;
   }
 
-  div.bio_box1_2 {
+  #nosotros_seccion_2 #nosotros_seccion_2_1 div.bio_box1 div.bio_box1_2 {
     margin: auto;
     width: 30vw;
     height: 30vh;
   }
 
-  div.bio_box1_2 img {
+  #nosotros_seccion_2 #nosotros_seccion_2_1 div.bio_box1 div.bio_box1_2 img {
     margin-left: -40%;
     margin-right: -40%;
     padding: 5%;
@@ -795,8 +865,10 @@ margin: auto}
     height: 30vh;
   }
 }
+
+
 /* BIO BOX DELIA LARA*/
-div.bio_box2 {
+#nosotros_seccion_2 #nosotros_seccion_2_1 div.bio_box2{
   border-radius: 2%;
   display: flex;
   margin-top: 8%;
@@ -804,7 +876,8 @@ div.bio_box2 {
   width: 100%;
   padding: 6%;
 }
-div.bio_box2 div.bio_box2_1 {
+
+#nosotros_seccion_2 #nosotros_seccion_2_1 div.bio_box2 div.bio_box2_1 {
   margin-left: 3%;
   justify-content: center;
   align-items: center;
@@ -813,44 +886,48 @@ div.bio_box2 div.bio_box2_1 {
   height: 50vh;
   background-color: lightseagreen;
 }
-div.bio_box2 div.bio_box2_1 img {
+#nosotros_seccion_2 #nosotros_seccion_2_1 div.bio_box2 div.bio_box2_1 img {
   margin-left: -20%;
   margin-top: 20%;
   width: auto;
   height: 50vh;
   transform: scaleX(-1);
 }
-div.bio_box2 div.bio_box2_2 {
+
+
+#nosotros_seccion_2 #nosotros_seccion_2_1 div.bio_box2 div.bio_box2_2 {
   text-align: justify;
   padding-left: 15%;
 }
 
 /*PAGINA NOSOTROS_SECCION 2_LIC_TABLET */
 @media only screen and (max-width: 768px) {
-  div.bio_box2 {
+  #nosotros_seccion_2 #nosotros_seccion_2_1 div.bio_box2 {
     margin-top: 10%;
     display: block;
   }
 
-  div.bio_box2_2 {
+ #nosotros_seccion_2 #nosotros_seccion_2_1 div.bio_box2 div.bio_box2_2 {
     margin-top: 10%;
     padding-left: 0%;
   }
 
-  div.bio_box2_1 {
+#nosotros_seccion_2 #nosotros_seccion_2_1 div.bio_box2  div.bio_box2_1 {
     width: 30vw;
     height: 30vh;
     margin: auto;
   }
 
-  div.bio_box2_1 img {
+  #nosotros_seccion_2 #nosotros_seccion_2_1 div.bio_box2  div.bio_box2_1 img {
     width: auto;
     height: 30vh;
     margin-left: -80%;
     margin-right: -80%;
   }
 }
+
 /*PAGINA EVALUACIONES*/
+
 /*PAGINA EVALUACIONES_SECCION 1_DESKTOP */
 .evaluaciones_box {
   display: flex;
@@ -933,11 +1010,11 @@ div.bio_box2 div.bio_box2_2 {
     height: auto;
   }
 
-  .evaluaciones_box_texto {
+.evaluaciones_box div.evaluaciones_box_texto{
     width: 80%;
   }
 
-  .evaluaciones_box_imagen {
+.evaluaciones_box div.evaluaciones_box_imagen {
     width: 100%;
     height: auto;
     margin-right: 5%;
@@ -945,6 +1022,7 @@ div.bio_box2 div.bio_box2_2 {
     padding-bottom: 10%;
   }
 }
+
 /*PAGINA EVALUACIONES_SECCION 2_DESKTOP */
 #evaluaciones_seccion_2 {
   background-color: white;
@@ -1015,7 +1093,7 @@ div.bio_box2 div.bio_box2_2 {
 
 /* BOX EVALUACIONES A RESPONSIVE */
 @media only screen and (max-width: 768px) {
-  .evaluaciones_boxes {
+#evaluaciones_seccion_2 div.evaluaciones_boxes{
     margin-top: 10%;
     margin-bottom: 10%;
   }
@@ -1033,33 +1111,35 @@ div.bio_box2 div.bio_box2_2 {
     font-size: 80%;
   }
 
-  .evaluaciones_seccion_2_box_1 {
+#evaluaciones_seccion_2 #evaluaciones_seccion_2_1 div.evaluaciones_seccion_2_box_1 {
     margin-top: 10%;
     width: 100%;
     height: 170vh;
     margin-bottom: 10%;
   }
 
-  .evaluaciones_seccion_2_box_1_wrapper {
+#evaluaciones_seccion_2 #evaluaciones_seccion_2_1 div.evaluaciones_seccion_2_box_1 div.evaluaciones_seccion_2_box_1_wrapper {
     width: 100%;
     display: block;
   }
 
-  .evaluaciones_seccion_2_box_1_imagen {
+#evaluaciones_seccion_2 #evaluaciones_seccion_2_1 div.evaluaciones_seccion_2_box_1 div.evaluaciones_seccion_2_box_1_wrapper div.evaluaciones_seccion_2_box_1_imagen {
     margin-top: 10%;
     width: 100%;
     height: 20%;
     margin-bottom: 10%;
   }
 
-  .evaluaciones_seccion_2_box_1_texto {
+#evaluaciones_seccion_2 #evaluaciones_seccion_2_1 div.evaluaciones_seccion_2_box_1 div.evaluaciones_seccion_2_box_1_wrapper div.evaluaciones_seccion_2_box_1_texto {
     margin-top: 70%;
     width: 85%;
     text-align: justify;
   }
 }
+
+
 /* BOX EVALUACIONES B */
-.evaluaciones_seccion_2_box_2 {
+#evaluaciones_seccion_2 #evaluaciones_seccion_2_1 div.evaluaciones_seccion_2_box_2 {
   border-radius: 2%;
   display: flex;
   margin: auto;
@@ -1068,79 +1148,87 @@ div.bio_box2 div.bio_box2_2 {
   padding: 6%;
   margin-top: 6%;
 }
-.evaluaciones_seccion_2_box_2 div.evaluaciones_seccion_2_box_2_wrapper {
+#evaluaciones_seccion_2 #evaluaciones_seccion_2_1 div.evaluaciones_seccion_2_box_2 div.evaluaciones_seccion_2_box_2_wrapper {
   width: 100%;
   display: flex;
 }
-.evaluaciones_seccion_2_box_2 div.evaluaciones_seccion_2_box_2_wrapper .evaluaciones_seccion_2_box_2_imagen {
+
+#evaluaciones_seccion_2 #evaluaciones_seccion_2_1 div.evaluaciones_seccion_2_box_2 div.evaluaciones_seccion_2_box_2_wrapper div.evaluaciones_seccion_2_box_2_imagen {
   width: 45%;
 }
-.evaluaciones_seccion_2_box_2 div.evaluaciones_seccion_2_box_2_wrapper .evaluaciones_seccion_2_box_2_imagen img {
+#evaluaciones_seccion_2 #evaluaciones_seccion_2_1 div.evaluaciones_seccion_2_box_2 div.evaluaciones_seccion_2_box_2_wrapper div.evaluaciones_seccion_2_box_2_imagen img {
   height: auto;
   width: 100%;
 }
-.evaluaciones_seccion_2_box_2 div.evaluaciones_seccion_2_box_2_wrapper .evaluaciones_seccion_2_box_2_texto {
+
+#evaluaciones_seccion_2 #evaluaciones_seccion_2_1 div.evaluaciones_seccion_2_box_2 div.evaluaciones_seccion_2_box_2_wrapper div.evaluaciones_seccion_2_box_2_texto{
   width: 45%;
   margin-left: 10%;
 }
-.evaluaciones_seccion_2_box_2 div.evaluaciones_seccion_2_box_2_wrapper .evaluaciones_seccion_2_box_2_texto img {
+
+#evaluaciones_seccion_2 #evaluaciones_seccion_2_1 div.evaluaciones_seccion_2_box_2 div.evaluaciones_seccion_2_box_2_wrapper div.evaluaciones_seccion_2_box_2_texto img {
   width: 15%;
   height: 15%;
 }
-.evaluaciones_seccion_2_box_2 div.evaluaciones_seccion_2_box_2_wrapper .evaluaciones_seccion_2_box_2_texto div.evaluaciones_seccion_2_box_2_texto_1 {
+
+#evaluaciones_seccion_2 #evaluaciones_seccion_2_1 div.evaluaciones_seccion_2_box_2 div.evaluaciones_seccion_2_box_2_wrapper div.evaluaciones_seccion_2_box_2_texto div.evaluaciones_seccion_2_box_2_texto_1 {
   display: flex;
   margin-top: 4%;
   align-items: center;
   text-align: left;
 }
-.evaluaciones_seccion_2_box_2 div.evaluaciones_seccion_2_box_2_wrapper .evaluaciones_seccion_2_box_2_texto div.evaluaciones_seccion_2_box_2_texto_1 p {
+
+#evaluaciones_seccion_2 #evaluaciones_seccion_2_1 div.evaluaciones_seccion_2_box_2 div.evaluaciones_seccion_2_box_2_wrapper div.evaluaciones_seccion_2_box_2_texto div.evaluaciones_seccion_2_box_2_texto_1 p {
   margin-left: 4%;
 }
-.evaluaciones_seccion_2_box_2 div.evaluaciones_seccion_2_box_2_wrapper .evaluaciones_seccion_2_box_2_texto div.evaluaciones_seccion_2_box_2_texto_2 {
+
+#evaluaciones_seccion_2 #evaluaciones_seccion_2_1 div.evaluaciones_seccion_2_box_2 div.evaluaciones_seccion_2_box_2_wrapper div.evaluaciones_seccion_2_box_2_texto div.evaluaciones_seccion_2_box_2_texto_2 {
   display: flex;
   margin-top: 4%;
   align-items: center;
   text-align: left;
 }
-.evaluaciones_seccion_2_box_2 div.evaluaciones_seccion_2_box_2_wrapper .evaluaciones_seccion_2_box_2_texto div.evaluaciones_seccion_2_box_2_texto_2 p {
+
+#evaluaciones_seccion_2 #evaluaciones_seccion_2_1 div.evaluaciones_seccion_2_box_2 div.evaluaciones_seccion_2_box_2_wrapper div.evaluaciones_seccion_2_box_2_texto div.evaluaciones_seccion_2_box_2_texto_2 p {
   margin-left: 4%;
 }
-.evaluaciones_seccion_2_box_2 div.evaluaciones_seccion_2_box_2_wrapper .evaluaciones_seccion_2_box_2_texto div.evaluaciones_seccion_2_box_2_texto_3 {
+#evaluaciones_seccion_2 #evaluaciones_seccion_2_1 div.evaluaciones_seccion_2_box_2 div.evaluaciones_seccion_2_box_2_wrapper .evaluaciones_seccion_2_box_2_texto div.evaluaciones_seccion_2_box_2_texto_3 {
   display: flex;
   margin-top: 4%;
   align-items: center;
   text-align: left;
 }
-.evaluaciones_seccion_2_box_2 div.evaluaciones_seccion_2_box_2_wrapper .evaluaciones_seccion_2_box_2_texto div.evaluaciones_seccion_2_box_2_texto_3 p {
+#evaluaciones_seccion_2 #evaluaciones_seccion_2_1 div.evaluaciones_seccion_2_box_2 div.evaluaciones_seccion_2_box_2_wrapper .evaluaciones_seccion_2_box_2_texto div.evaluaciones_seccion_2_box_2_texto_3 p {
   margin-left: 4%;
 }
 
 /* BOX EVALUACIONES B RESPONSIVE */
 @media only screen and (max-width: 768px) {
-  .evaluaciones_seccion_2_box_2 {
+#evaluaciones_seccion_2 #evaluaciones_seccion_2_1 div.evaluaciones_seccion_2_box_2 {
     margin-top: 10%;
     width: 100%;
     height: 170vh;
     margin-bottom: 10%;
   }
 
-  .evaluaciones_seccion_2_box_2_wrapper {
+#evaluaciones_seccion_2 #evaluaciones_seccion_2_1 div.evaluaciones_seccion_2_box_2 div.evaluaciones_seccion_2_box_2_wrapper {
     width: 100%;
     display: block;
   }
 
-  .evaluaciones_seccion_2_box_2_imagen {
+#evaluaciones_seccion_2 #evaluaciones_seccion_2_1 div.evaluaciones_seccion_2_box_2 div.evaluaciones_seccion_2_box_2_wrapper div.evaluaciones_seccion_2_box_2_imagen {
     width: 100%;
     height: 20%;
     margin-bottom: 10%;
   }
 
-  .evaluaciones_seccion_2_box_2_texto {
+#evaluaciones_seccion_2 #evaluaciones_seccion_2_1 div.evaluaciones_seccion_2_box_2 div.evaluaciones_seccion_2_box_2_wrapper div.evaluaciones_seccion_2_box_2_texto{
     margin-top: 70%;
     width: 85%;
     text-align: justify;
   }
 }
+
 /*BOX EVALUACIONES C */
 .evaluaciones_seccion_2_box_3 {
   border-radius: 2%;
@@ -1192,30 +1280,31 @@ div.bio_box2 div.bio_box2_2 {
 
 /* BOX EVALUACIONES C RESPONSIVE */
 @media only screen and (max-width: 768px) {
-  .evaluaciones_seccion_2_box_3 {
+#evaluaciones_seccion_2 #evaluaciones_seccion_2_1 div.evaluaciones_seccion_2_box_3 {
     margin-top: 10%;
     width: 100%;
     height: 110vh;
     margin-bottom: 20%;
   }
 
-  .evaluaciones_seccion_2_box_3_wrapper {
+#evaluaciones_seccion_2 #evaluaciones_seccion_2_1 div.evaluaciones_seccion_2_box_3 div.evaluaciones_seccion_2_box_3_wrapper {
     width: 100%;
     display: block;
   }
 
-  .evaluaciones_seccion_2_box_3_imagen {
+#evaluaciones_seccion_2 #evaluaciones_seccion_2_1 div.evaluaciones_seccion_2_box_3 div.evaluaciones_seccion_2_box_3_wrapper  .evaluaciones_seccion_2_box_3_imagen {
     width: 100%;
     height: 20%;
     margin-bottom: 10%;
   }
 
-  .evaluaciones_seccion_2_box_3_texto {
+#evaluaciones_seccion_2 #evaluaciones_seccion_2_1 div.evaluaciones_seccion_2_box_3 div.evaluaciones_seccion_2_box_3_wrapper  .evaluaciones_seccion_2_box_3_texto {
     margin-top: 50%;
     width: 85%;
     text-align: justify;
   }
 }
+
 /*PAGINAS SERVICIOS*/
 /*PAGINA SERVICIOS_SECCION 1_DESKTOP */
 .servicios_box {
@@ -1253,11 +1342,11 @@ div.bio_box2 div.bio_box2_2 {
     height: auto;
   }
 
-  .servicios_box_texto {
+.servicios_box  .servicios_box_texto {
     width: 80%;
   }
 
-  .servicios_box_imagen {
+.servicios_box  .servicios_box_imagen {
     width: 80%;
     height: auto;
     margin: auto;
@@ -1307,7 +1396,6 @@ div.bio_box2 div.bio_box2_2 {
   display: block;
   width: 45%;
   height: 100%;
-  background-color: white;
   margin-left: 0%;
 }
 
@@ -1330,14 +1418,12 @@ div.bio_box2 div.bio_box2_2 {
   display: block;
   width: 45%;
   height: 100%;
-  background-color: white;
   margin-left: 0%;
 }
 #servicios_seccion_2_1 .servicios_seccion_2_box_1 div.servicios_seccion_2_box_3_imagen {
   display: block;
   width: 45%;
   height: 100%;
-  background-color: white;
   margin-left: 0%;
 }
 #servicios_seccion_2_1 .servicios_seccion_2_box_1 img {
@@ -1476,21 +1562,18 @@ div.bio_box2 div.bio_box2_2 {
   display: block;
   width: 45%;
   height: 100%;
-  background-color: white;
   margin-left: 0%;
 }
 #servicios_seccion_2_1 .servicios_seccion_2_box_2 div.servicios_seccion_2_box_2_imagen {
   display: block;
   width: 45%;
   height: 100%;
-  background-color: white;
   margin-left: 0%;
 }
 #servicios_seccion_2_1 .servicios_seccion_2_box_2 div.servicios_seccion_2_box_3_imagen {
   display: block;
   width: 45%;
   height: 100%;
-  background-color: white;
   margin-left: 0%;
 }
 #servicios_seccion_2_1 .servicios_seccion_2_box_2 img {
@@ -1629,21 +1712,18 @@ div.bio_box2 div.bio_box2_2 {
   display: block;
   width: 45%;
   height: 100%;
-  background-color: white;
   margin-left: 0%;
 }
 #servicios_seccion_2_1 .servicios_seccion_2_box_3 div.servicios_seccion_2_box_2_imagen {
   display: block;
   width: 45%;
   height: 100%;
-  background-color: white;
   margin-left: 0%;
 }
 #servicios_seccion_2_1 .servicios_seccion_2_box_3 div.servicios_seccion_2_box_3_imagen {
   display: block;
   width: 45%;
   height: 100%;
-  background-color: white;
   margin-left: 0%;
 }
 #servicios_seccion_2_1 .servicios_seccion_2_box_3 img {
@@ -1750,7 +1830,7 @@ div.bio_box2 div.bio_box2_2 {
 
 /* PAGINA SERVICIOS SECCION 2 BOX A RESPONSIVE */
 @media only screen and (max-width: 768px) {
-  .servicios_boxes {
+#servicios_seccion_2  .servicios_boxes {
     margin-top: 10%;
     margin-bottom: 10%;
   }
@@ -1767,76 +1847,79 @@ div.bio_box2 div.bio_box2_2 {
     font-size: 80%;
   }
 
-  .servicios_seccion_2_box_1 {
+#servicios_seccion_2 #servicios_seccion_2_1 .servicios_seccion_2_box_1 {
     margin-top: 10%;
     width: 100%;
-    height: 100vh;
+    height: 150vh;
     margin-bottom: 10%;
   }
 
-  .servicios_seccion_2_box_1_wrapper {
+#servicios_seccion_2 #servicios_seccion_2_1 .servicios_seccion_2_box_1 .servicios_seccion_2_box_1_wrapper{
     width: 100%;
     display: block;
   }
 
-  .servicios_seccion_2_box_1_imagen {
+#servicios_seccion_2 #servicios_seccion_2_1 .servicios_seccion_2_box_1 .servicios_seccion_2_box_1_wrapper  .servicios_seccion_2_box_1_imagen {
     width: 100%;
     height: 20%;
     margin-bottom: 10%;
   }
 
-  .servicios_seccion_2_box_1_texto {
+#servicios_seccion_2 #servicios_seccion_2_1 .servicios_seccion_2_box_1 .servicios_seccion_2_box_1_wrapper .servicios_seccion_2_box_1_texto {
     width: 85%;
+    margin-top: 85%;
     text-align: justify;
   }
 }
 /*BOX SERVICIOS B RESPONSIVE*/
 @media only screen and (max-width: 768px) {
-  .servicios_seccion_2_box_2 {
+ #servicios_seccion_2 #servicios_seccion_2_1 .servicios_seccion_2_box_2 {
     margin-top: 10%;
     width: 100%;
-    height: 120vh;
+    height: 150vh;
     margin-bottom: 10%;
   }
 
-  .servicios_seccion_2_box_2_wrapper {
+  #servicios_seccion_2 #servicios_seccion_2_1 .servicios_seccion_2_box_2 .servicios_seccion_2_box_2_wrapper {
     width: 100%;
     display: block;
   }
 
-  .servicios_seccion_2_box_2_imagen {
+ #servicios_seccion_2 #servicios_seccion_2_1 .servicios_seccion_2_box_2 .servicios_seccion_2_box_2_wrapper .servicios_seccion_2_box_2_imagen {
     width: 100%;
     height: 20%;
     margin-bottom: 10%;
   }
 
-  .servicios_seccion_2_box_2_texto {
+ #servicios_seccion_2 #servicios_seccion_2_1 .servicios_seccion_2_box_2 .servicios_seccion_2_box_2_wrapper .servicios_seccion_2_box_2_texto {
     width: 85%;
+    margin-top: 70%;
     text-align: justify;
   }
 }
 /* BOX SERVICIOS C RESPONSIVE */
 @media only screen and (max-width: 768px) {
-  .servicios_seccion_2_box_3 {
+ #servicios_seccion_2 #servicios_seccion_2_1 .servicios_seccion_2_box_3 {
     margin-top: 10%;
     width: 100%;
-    height: 140vh;
+    height: 160vh;
     margin-bottom: 20%;
   }
 
-  .servicios_seccion_2_box_3_wrapper {
+ #servicios_seccion_2 #servicios_seccion_2_1 .servicios_seccion_2_box_3  .servicios_seccion_2_box_3_wrapper {
     width: 100%;
     display: block;
   }
 
-  .servicios_seccion_2_box_3_imagen {
+ #servicios_seccion_2 #servicios_seccion_2_1 .servicios_seccion_2_box_3  .servicios_seccion_2_box_3_wrapper .servicios_seccion_2_box_3_imagen {
     width: 100%;
     height: 20%;
     margin-bottom: 10%;
   }
 
-  .servicios_seccion_2_box_3_texto {
+#servicios_seccion_2 #servicios_seccion_2_1 .servicios_seccion_2_box_3  .servicios_seccion_2_box_3_wrapper  .servicios_seccion_2_box_3_texto {
     width: 85%;
+    margin-top: 40%;
     text-align: justify;
   }
 }
@@ -1893,6 +1976,41 @@ div.bio_box2 div.bio_box2_2 {
 }
 #contacto_section_1 .contacto_section_1 .box_contacto .botones_banner_contacto .btn_mail a, #contacto_section_1 .contacto_section_1 .box_contacto .botones_banner_contacto .btn_contact a, #contacto_section_1 .contacto_section_1 .box_contacto .botones_banner_contacto .btn_calendly a {
   color: white;
+}
+
+/* PAGINA CONTACTO RESPONSIVE */
+@media only screen and (max-width: 768px) {
+
+#contacto_section_1{
+    display: block;
+    flex-wrap: wrap;
+    height: 150vh;
+}
+
+#contacto_section_1 .contacto_section_1 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+#contacto_section_1 .contacto_section_1 .box_contacto{
+  width: 80%;
+}
+
+#contacto_section_1 .contacto_section_1 .contacto_img1 {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding-bottom: 10%;
+    margin-top: 15%;
+}
+
+#contacto_section_1 .contacto_section_1 .box_contacto .botones_banner_contacto button{
+margin: auto;
+}
+
+#contacto_section_1 .contacto_section_1 .box_contacto .botones_banner_contacto .btn_mail, #contacto_section_1 .contacto_section_1 .box_contacto .botones_banner_contacto .btn_contact, #contacto_section_1 .contacto_section_1 .box_contacto .botones_banner_contacto .btn_calendly {
+margin-top: 10%;
+}
 }
 
 /*# sourceMappingURL=estilos.css.map */
