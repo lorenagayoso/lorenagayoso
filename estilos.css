@@ -461,6 +461,7 @@ margin-top: 8%;
 }
 
 #home_section_3 div.box_contenedores{
+width: 90%;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
